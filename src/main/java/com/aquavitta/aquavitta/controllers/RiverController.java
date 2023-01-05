@@ -64,6 +64,6 @@ public class RiverController {
         var riverModel = new RiverModel();
         BeanUtils.copyProperties(riverDto, riverModel);
         riverModel.setId(riverModelOptional.get().getId());
-        return ResponseEntity.status(HttpStatus.OK).body("River deleted with sucessfully");
+        return ResponseEntity.status(HttpStatus.OK).body("River updated with sucessfully");
     }
 }

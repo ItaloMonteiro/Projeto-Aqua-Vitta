@@ -19,7 +19,8 @@ public class WebSecurityConfig {
 
     private static final String[] AUTH_LIST = {
             "/",
-            "/get/{id}"
+            "/get/{id}",
+            "/user/adding-user"
     };
 
     @Bean
