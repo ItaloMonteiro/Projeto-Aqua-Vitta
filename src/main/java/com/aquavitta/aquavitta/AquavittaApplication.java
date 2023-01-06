@@ -9,7 +9,6 @@ public class AquavittaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AquavittaApplication.class, args);
-		System.out.println(new BCryptPasswordEncoder().encode("12345"));
 	}
 
 }
