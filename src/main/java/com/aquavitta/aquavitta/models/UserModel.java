@@ -16,7 +16,7 @@ import java.util.UUID;
 @Builder
 @Data
 @Entity
-@Table(name = "TBM_USER")
+@Table(name = "TB_USER")
 @NoArgsConstructor
 public class UserModel implements Serializable, UserDetails {
     private static final long serialVersionUID = 1L;
